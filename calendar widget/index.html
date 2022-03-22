@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset='utf-8' />
+    <link href='/calendar widget/style.css' rel='stylesheet' />
+    <script src='/calendar widget/script.js'></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        googleCalendarApiKey: 'AIzaSyCiCdH-bn1V-Qy5_r_Ws5ofF7QXJusz0SQ',
+        eventSources: [{
+            googleCalendarId: 'leaheahoyt@gmail.com',
+            color: '#d9ed92',
+            textColor: '#212121'
+          },
+          {
+            googleCalendarId: 'o2f3faahf5i9hr028vb0s53i64@group.calendar.google.com',
+            color: '#b5e48c',
+            textColor: '#212121'
+          },
+          {
+            googleCalendarId: '2tfivfsmag8gs72379jf6aa870@group.calendar.google.com',
+            color: '#99d98c',
+            textColor: '#212121'
+          },
+          {
+            googleCalendarId: 'm4otrivo9bkffmlkuv15ir9fb0@group.calendar.google.com',
+            color: '#76c893',
+            textColor: '#212121'
+          },
+          {
+            googleCalendarId: 'qej53sv0ieq8sptf9djgg22nak@group.calendar.google.com',
+            color: '#52b69a',
+            textColor: 'white'
+          },
+          {
+            googleCalendarId: '1v9ucmk7ctmj68un8irbo34fig@group.calendar.google.com',
+            color: '#34a0a4',
+            textColor: 'white'
+          },
+          {
+            googleCalendarId: '07vc3ft7pvt1dibjbahfcrk8h8@group.calendar.google.com',
+            color: '#1a759f',
+            textColor: 'white'
+          },
+          {
+            googleCalendarId: 'en.usa#holiday@group.v.calendar.google.com',
+            color: '#d1d7da',
+            textColor: '#212121'
+          }
+        ]
+      });
+      calendar.render();
+    });
+  </script>
+</head>
+
+<body>
+  <div id="calendar"></div>
+</body>
+
+</html>
