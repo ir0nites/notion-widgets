@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link href='main.css' rel='stylesheet' />
+    <script src='main.js'></script>
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+    googleCalendarApiKey: 'AIzaSyCiCdH-bn1V-Qy5_r_Ws5ofF7QXJusz0SQ',
+    eventSources: [
+      {
+        googleCalendarId: 'leaheahoyt@gmail.com',
+        color:'#ffffff',
+        textColor: '#212121'
+      },
+      {
+        googleCalendarId: 'cean46k0dh207p3tr7o5qneosk@group.calendar.google.com',
+        color:'#ffba70',
+        textColor: '#212121'
+      },
+      {
+        googleCalendarId: 'bbccjk1ss1uguf4jc6lb110a9o@group.calendar.google.com',
+        color:'#c6df9a',
+        textColor: '#212121'
+      },
+      {
+        googleCalendarId: 'hc59m8vasemvdj15idlpm9rhts@group.calendar.google.com',
+        color:'#c6df9a',
+        textColor: '#212121'
+      },
+      {
+        googleCalendarId: '5qp5bgcntng3m339u6drsvddeo@group.calendar.google.com',
+        color:'#616161',
+        textColor: '#212121'
+      },
+    ]
+  });
+
+  calendar.render();
+});
+
+</script>
+  </head>
+  <body>
+    <div id='calendar'></div>
+  </body>
+</html>
