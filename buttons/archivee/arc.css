@@ -1,0 +1,31 @@
+a.my-button{
+    background-color: #e2fac3;
+    color: #35332d;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 3px 11px;
+    border: 4px solid #cce3a9;
+    border-radius: 9px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   }
+   a.my-button span{
+    margin-right: 11px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpzdmdqcz0iaHR0cDovL3N2Z2pzLmNvbS9zdmdqcyIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogIDxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTQ1Niw1OC43NTVIMzI2VjIwYzAtMTEuMDQ2LTguOTU0LTIwLTIwLTIwSDIwNmMtMTEuMDQ2LDAtMjAsOC45NTQtMjAsMjB2MzguNzU1SDU2Yy0xMS4wNDYsMC0yMCw4Ljk1NC0yMCwyMHY3OC4zNCAgICBjMCwxMS4wNDYsOC45NTQsMjAsMjAsMjBoMzBWNDYyYzAsMjcuNTcsMjIuNDMsNTAsNTAsNTBoMjQwYzI3LjU3LDAsNTAtMjIuNDMsNTAtNTBWMTc3LjA5NWgzMGMxMS4wNDYsMCwyMC04Ljk1NCwyMC0yMHYtNzguMzQgICAgQzQ3Niw2Ny43MDksNDY3LjA0Niw1OC43NTUsNDU2LDU4Ljc1NXogTTIyNiw0MGg2MHYxOC43NTVoLTYwVjQweiBNMzg2LDQ2MmMwLDUuNTE0LTQuNDg2LDEwLTEwLDEwSDEzNmMtNS41MTQsMC0xMC00LjQ4Ni0xMC0xMCAgICBWMTc3LjA5NWgyNjBWNDYyeiBNNDM2LDEzNy4wOTVjLTEwLjcxNywwLTM0MS40NTIsMC0zNjAsMHYtMzguMzRoMzYwVjEzNy4wOTV6IiBmaWxsPSIjMzczNTJmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik0yMDYsMjA2LjYyM2MtMTEuMDQ2LDAtMjAsOC45NTQtMjAsMjB2MTk1Ljg1MWMwLDExLjA0NSw4Ljk1NCwxOS45OTksMjAsMTkuOTk5czIwLTguOTU0LDIwLTIwdi0xOTUuODUgICAgQzIyNiwyMTUuNTc3LDIxNy4wNDYsMjA2LjYyMywyMDYsMjA2LjYyM3oiIGZpbGw9IiMzNzM1MmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTMwNiwyMDYuNjIzYy0xMS4wNDYsMC0yMCw4Ljk1NC0yMCwyMHYxOTUuODUxYzAsMTEuMDQ1LDguOTU0LDE5Ljk5OSwyMCwxOS45OTljMTEuMDQ2LDAsMjAtOC45NTQsMjAtMjB2LTE5NS44NSAgICBDMzI2LDIxNS41NzcsMzE3LjA0NiwyMDYuNjIzLDMwNiwyMDYuNjIzeiIgZmlsbD0iIzM3MzUyZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CgoKCgoKCgoKCgoKCgoKCjwvZz4KPC9zdmc+Cg==);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(0deg);
+   }
+   a.my-button:hover{
+    background-color: #e5fbca;
+   }
+   a.my-button:active{
+    transform: scale(0.95);
+   }
